@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>م. كمال حمادي البوسي | مهندس برمجيات ومصمم واجهات</title>
+  <meta name="description" content="الموقع الشخصي والبورتفوليو للمهندس كمال حمادي البوسي - مطور ويب، مصمم واجهات وتجارب مستخدم، ومؤلف الملزمة الشاملة لتطوير الويب." />
+
+  <!-- Google Fonts: Silkscreen (Pixel), Caveat (Handwritten), Plus Jakarta Sans (Clean Modern), Cairo & Tajawal (Arabic) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Silkscreen:wght@400;700&family=Tajawal:wght@400;500;700;800;900&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Outer Dark Blueprint / Grid Canvas -->
+  <div class="canvas-wrapper">
+
+    <!-- Paper Sheet Container (Notebook Lined Paper) -->
+    <main class="notebook-sheet" id="sheet">
+
+      <!-- ========================================================== -->
+      <!-- TOP NAVIGATION BAR -->
+      <!-- ========================================================== -->
+      <header class="top-nav" id="topNav">
+        <div class="nav-left">
+          <div class="brand-avatar" title="م. كمال حمادي البوسي">
+            <img src="assets/1.jpg" alt="م. كمال حمادي البوسي" />
+          </div>
+
+          <nav class="nav-pills" aria-label="التنقل الرئيسي">
+            <a href="#home" class="pill-btn active" id="navHome">
+              <span class="pill-star">★</span> الرئيسية
+            </a>
+            <a href="#about" class="pill-btn" id="navAbout">
+              <i class="fa-regular fa-user"></i> نبذة عني
+            </a>
+            <a href="#projects" class="pill-btn" id="navProjects">
+              <i class="fa-solid fa-shapes"></i> مشاريعي
+            </a>
+            <a href="#accounts" class="pill-btn" id="navAccounts">
+              <i class="fa-solid fa-link"></i> حساباتي
+            </a>
+          </nav>
+        </div>
+
+        <div class="nav-right">
+          <!-- Social Quick Icons -->
+          <div class="social-quick-pills" id="headerSocials">
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="social-circle youtube" title="YouTube" aria-label="YouTube">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="social-circle tiktok" title="TikTok" aria-label="TikTok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="https://github.com/kamalalbosi-ENG" target="_blank" rel="noopener noreferrer" class="social-circle github" title="GitHub" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://wa.me/967781933369" target="_blank" rel="noopener noreferrer" class="social-circle whatsapp" title="WhatsApp" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://t.me/+967781933369" target="_blank" rel="noopener noreferrer" class="social-circle telegram" title="Telegram" aria-label="Telegram">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+          </div>
+
+          <!-- Contact Pill Button -->
+          <a href="#contact" class="pill-btn pill-btn-dark" id="navContact">
+            <span class="heart-icon">♥</span> تواصل معي
+          </a>
+        </div>
+      </header>
+
+      <!-- ========================================================== -->
+      <!-- HERO SECTION -->
+      <!-- ========================================================== -->
+      <section class="hero-section" id="home">
+        
+        <!-- Handwritten Intro "my name is" -->
+        <div class="handwritten-intro">
+          <span class="doodle-text">مرحباً، أنا المهندس</span>
+          <svg class="doodle-underline" viewBox="0 0 120 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 7C35 2 85 10 118 6" stroke="#333333" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <!-- Central Name Box (Pixel / Blocky Style + Hand-drawn Sketch Border) -->
+        <div class="name-badge-wrapper">
+          <!-- Floating Sticker: Top Left -->
+          <div class="sticker-tag sticker-green sticker-tl">
+            <span>🚀 صنع حلول برمجية</span>
+          </div>
+
+          <!-- Floating Sticker: Top Right -->
+          <div class="sticker-tag sticker-cream sticker-tr">
+            <span>✨ إتقان أدق التفاصيل</span>
+          </div>
+
+          <!-- The Hand-drawn Frame Box -->
+          <div class="sketch-box">
+            <h1 class="hero-pixel-name" title="KAMAL">KAMAL</h1>
+            <div class="name-sub-ar">م. كمال حمادي البوسي</div>
+          </div>
+
+          <!-- Floating Sticker: Bottom Left -->
+          <div class="sticker-tag sticker-yellow sticker-bl">
+            <span class="arrow-svg">↖</span>
+            <span>مطور Full-Stack & مهندس ويب</span>
+          </div>
+
+          <!-- Floating Tag: Center Status -->
+          <div class="sticker-status">
+            <span class="status-pulse-dot"></span>
+            <span>متاح للمشاريع الجديدة وحل التحديات التقنية</span>
+          </div>
+
+          <!-- Floating Sticker: Bottom Right -->
+          <div class="sticker-tag sticker-mint sticker-br">
+            <span>اليمن 📍 صنعاء / عن بُعد</span>
+            <span class="arrow-svg">↗</span>
+          </div>
+        </div>
+
+        <!-- Floating Avatars on Sides of Headline -->
+        <div class="headline-container">
+          <div class="floating-avatar avatar-left">
+            <img src="assets/3.jpg" alt="تطوير برمجيات وهندسة ويب" />
+          </div>
+
+          <h2 class="hero-headline">
+            أبني برمجيات وتطبيقات ويب <span class="emoji-icon">🎯</span><br />
+            تمنحك تجربة سلسة وتختصر تعقيداتك. <span class="emoji-icon"></span>
+          </h2>
+
+          <div class="floating-avatar avatar-right">
+            <img src="assets/4.jpg" alt="صناعة محتوى تقني وتفاعل" />
+          </div>
+        </div>
+
+        <!-- Contact CTA Button -->
+        <div class="hero-cta-wrapper">
+          <a href="#contact" class="hero-cta-btn" id="heroContactBtn">
+            <span class="btn-square-icon"><i class="fa-solid fa-paper-plane"></i></span>
+            <span>تواصل معي الآن</span>
+          </a>
+        </div>
+
+        <!-- Subtle Curved Hand-drawn Divider Line -->
+        <div class="hero-divider">
+          <svg viewBox="0 0 1000 30" preserveAspectRatio="none">
+            <path d="M 0 15 Q 250 5 500 20 T 1000 12" fill="none" stroke="#D1D0C7" stroke-width="1.8" stroke-dasharray="6,4"/>
+          </svg>
+        </div>
+      </section>
+
+      <!-- ========================================================== -->
+      <!-- ABOUT ME SECTION (Polaroid & Handwritten Notes) -->
+      <!-- ========================================================== -->
+      <section class="about-section" id="about">
+        
+        <div class="about-doodle-label">
+          <span class="doodle-text">من أنا؟</span>
+        </div>
+
+        <div class="whats-up-badge">
+          <span>أهلاً بكم في عالمي</span>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Left Polaroid Card -->
+          <div class="polaroid-card card-left">
+            <div class="washi-tape washi-blue washi-tl"></div>
+            <div class="washi-tape washi-blue washi-tr"></div>
+            <div class="polaroid-img-frame">
+              <img src="assets/1.jpg" alt="م. كمال حمادي البوسي" class="polaroid-photo" />
+            </div>
+            <div class="polaroid-caption">
+              <span>Eng. Kamal // 2026</span>
+            </div>
+          </div>
+
+          <!-- Center Story & Skills -->
+          <div class="about-story">
+            <p class="handwritten-bio">
+              أنا مهندس برمجيات ومطور ويب شغوف جداً بتحويل الأفكار المعقدة إلى واجهات سهلة وتطبيقات عملية يعشقها المستخدم. ✨
+              أهتم بأدق تفاصيل الأداء، وحالات الاستخدام النادرة التي يغفل عنها الكثيرون، وهدفي دائماً بناء منتج رقمي يجعل يوم المستخدم أسهل وأكثر إنتاجية. 🎨
+            </p>
+
+            <!-- Serrated / Stamp Skill Badges -->
+            <div class="stamp-skills-container">
+              <!-- Row 1 -->
+              <div class="stamp-badge stamp-yellow" title="تصميم واجهات وتفاعل المستخدم">
+                <span>تطوير الواجهات Frontend</span>
+              </div>
+              <div class="stamp-icon-box box-amber">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <div class="stamp-badge stamp-green" title="بناء السيرفرات وقواعد البيانات">
+                <span>الأنظمة الخلفية Backend</span>
+              </div>
+              <div class="stamp-icon-box box-mint">
+                <i class="fa-solid fa-code"></i>
+              </div>
+
+              <!-- Row 2 -->
+              <div class="stamp-badge stamp-pink" title="تصميم واجهات UI / UX حديثة">
+                <span>تصميم وتجربة المستخدم UI/UX</span>
+              </div>
+              <div class="stamp-icon-box box-pink">
+                <i class="fa-solid fa-puzzle-piece"></i>
+              </div>
+              <div class="stamp-badge stamp-blue" title="قواعد بيانات وهيكلة الـ API">
+                <span>معمارية الأنظمة & APIs</span>
+              </div>
+              <div class="stamp-icon-box box-blue">
+                <i class="fa-solid fa-database"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Polaroid Card (Workspace) -->
+          <div class="polaroid-card card-right">
+            <div class="washi-tape washi-blue washi-tl"></div>
+            <div class="washi-tape washi-blue washi-tr"></div>
+            <div class="polaroid-img-frame">
+              <img src="assets/2.jpg" alt="بيئة العمل والأكواد" class="polaroid-photo" />
+            </div>
+            <div class="polaroid-caption">
+              <span>مساحة العمل والتطوير 💻</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ========================================================== -->
+      <!-- PROJECTS / CASE STUDIES SECTION (Futuristic Retro Folder Tabs) -->
+      <!-- ========================================================== -->
+      <section class="projects-section" id="projects">
+        
+        <!-- Section Header -->
+        <div class="section-title-wrapper">
+          <div class="tab-label">أبرز الأعمال والمشاريع</div>
+          <p class="section-subtitle">نماذج من أعمال برمجية وتطبيقات متكاملة تم بناؤها بمعايير احترافية</p>
+        </div>
+
+        <!-- Project 01: Folder Tab Layout (Dark Card) -->
+        <div class="project-folder folder-dark">
+          <!-- Chamfered Tabs Header -->
+          <div class="folder-tabs-header">
+            <button class="folder-tab active-tab tab-blue" type="button">
+              <span>◆ PROJECT 01</span>
+            </button>
+            <button class="folder-tab tab-inactive" type="button">
+              <span>◆ WEB APPLICATION</span>
+            </button>
+          </div>
+
+          <!-- Folder Card Body -->
+          <div class="folder-card-body dark-theme">
+            <div class="folder-info">
+              <div class="project-date">
+                <span class="dot-indicator">●</span> MAR 2026
+              </div>
+              <h3 class="project-title">منصة التعلم الأكاديمي Web Academy</h3>
+              <p class="project-desc">
+                منصة تعليمية متكاملة لتدريس علوم وتقنيات الويب، مزودة بمحرر أكواد تفاعلي ونظام محاكاة لاختبار الأكواد البرمجية مباشرة ومتابعة تقدم الطلاب.
+              </p>
+              
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5 / CSS3</span>
+                <span class="tech-tag">JavaScript ES6+</span>
+                <span class="tech-tag">PHP 8 & MySQL</span>
+                <span class="tech-tag">RESTful API</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="#contact" class="view-project-link">
+                  <span>مشاهدة تفاصيل المشروع</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Mockup Preview with Washi Tape -->
+            <div class="folder-mockup-wrapper">
+              <div class="mockup-frame">
+                <div class="washi-tape washi-white washi-top"></div>
+                <div class="washi-tape washi-white washi-bottom"></div>
+                <div class="mockup-screen screen-dark">
+                  <div class="screen-top-bar">
+                    <span class="screen-dot red"></span>
+                    <span class="screen-dot yellow"></span>
+                    <span class="screen-dot green"></span>
+                    <span class="screen-title-bar">web-academy.dev // dashboard</span>
+                  </div>
+                  <div class="screen-content">
+                    <div class="mini-code-header">
+                      <span class="code-badge">&lt;/&gt; Live Code Editor</span>
+                      <span class="code-status">● Running</span>
+                    </div>
+                    <pre class="mini-code"><code>// بناء تطبيقات الويب الحديثة
+const course = new WebDevelopment({
+  instructor: "Eng. Kamal Al-Bousi",
+  modules: ["HTML5", "CSS3", "JS", "PHP", "SQL"],
+  status: "Active & Production-Ready"
+});</code></pre>
+                    <div class="mini-stats-grid">
+                      <div class="mini-stat-box">
+                        <span class="stat-num">100%</span>
+                        <span class="stat-lbl">كود نظيف</span>
+                      </div>
+                      <div class="mini-stat-box">
+                        <span class="stat-num">Fast</span>
+                        <span class="stat-lbl">سرعة فائقة</span>
+                      </div>
+                      <div class="mini-stat-box">
+                        <span class="stat-num">Clean</span>
+                        <span class="stat-lbl">تصميم عصري</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 02: Folder Tab Layout (Warm Yellow Card) -->
+        <div class="project-folder folder-yellow">
+          <!-- Chamfered Tabs Header -->
+          <div class="folder-tabs-header">
+            <button class="folder-tab active-tab tab-yellow-btn" type="button">
+              <span>◆ PROJECT 02</span>
+            </button>
+            <button class="folder-tab tab-inactive-yellow" type="button">
+              <span>◆ SYSTEM ARCHITECTURE</span>
+            </button>
+          </div>
+
+          <!-- Folder Card Body -->
+          <div class="folder-card-body yellow-theme">
+            <div class="folder-info">
+              <div class="project-date dark-text">
+                <span class="dot-indicator dark-dot">●</span> JAN 2026
+              </div>
+              <h3 class="project-title dark-text">نظام إدارة العمليات والأدوات Forge</h3>
+              <p class="project-desc dark-text">
+                لوحة تحكم إدارية ومحرك أتمتة لربط واجهات الويب بقواعد البيانات وتحليل تدفق العمليات البرمجية ورفع إنتاجية فرق العمل من اليوم الأول.
+              </p>
+              
+              <div class="project-tech-tags dark-tags">
+                <span class="tech-tag-dark">Full-Stack</span>
+                <span class="tech-tag-dark">Bootstrap 5</span>
+                <span class="tech-tag-dark">Relational DB</span>
+                <span class="tech-tag-dark">Automation</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="#contact" class="view-project-link dark-link">
+                  <span>استعراض النظام والأدوات</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Mockup Preview with Washi Tape -->
+            <div class="folder-mockup-wrapper">
+              <div class="mockup-frame">
+                <div class="washi-tape washi-white washi-top"></div>
+                <div class="washi-tape washi-white washi-bottom"></div>
+                <div class="mockup-screen screen-yellow-inner">
+                  <div class="screen-top-bar dark-bar">
+                    <span class="screen-dot red"></span>
+                    <span class="screen-dot yellow"></span>
+                    <span class="screen-dot green"></span>
+                    <span class="screen-title-bar dark-title-bar">forge-engine.io // analytics</span>
+                  </div>
+                  <div class="screen-content dark-inner">
+                    <div class="analytics-card">
+                      <div class="card-metric-title">Performance Metric</div>
+                      <div class="card-metric-value">99.98%</div>
+                      <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 88%;"></div>
+                      </div>
+                    </div>
+                    <div class="data-rows-preview">
+                      <div class="preview-row"><span>Server Lifecycle</span><span class="badge-ok">Optimal</span></div>
+                      <div class="preview-row"><span>SQL Response Time</span><span class="badge-ok">12ms</span></div>
+                      <div class="preview-row"><span>Security Level</span><span class="badge-ok">A+ Grade</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ========================================================== -->
+      <!-- ACCOUNTS & SOCIAL PROFILES (The user's requested accounts hub) -->
+      <!-- ========================================================== -->
+      <section class="accounts-section" id="accounts">
+        
+        <div class="section-badge-center">
+          <span class="badge-icon">🌐</span>
+          <span>حساباتي وقنوات التواصل الرسمية</span>
+        </div>
+
+        <h2 class="accounts-heading">تابعني وتواصل معي عبر المنصات التالية</h2>
+        <p class="accounts-sub">
+          أرحب بالتواصل الدائم، تبادل الخبرات البرمجية، والاستشارات التقنية في أي وقت:
+        </p>
+
+        <!-- Social Cards Grid -->
+        <div class="accounts-grid" id="accountsList">
+          
+          <!-- GitHub -->
+          <a href="https://github.com/kamalalbosi-ENG" target="_blank" rel="noopener noreferrer" class="account-card github-card" id="linkGithub">
+            <div class="account-card-icon">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="account-card-body">
+              <div class="account-platform">GitHub</div>
+              <div class="account-handle">@kamalalbosi-ENG</div>
+              <div class="account-desc">المستودعات البرمجية والمشاريع المفتوحة المصدر والأكواد</div>
+            </div>
+            <div class="account-arrow">↗</div>
+          </a>
+
+          <!-- YouTube (Replaced LinkedIn) -->
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="account-card youtube-card" id="linkYoutube">
+            <div class="account-card-icon">
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="account-card-body">
+              <div class="account-platform">YouTube</div>
+              <div class="account-handle">قناة المهندس كمال</div>
+              <div class="account-desc">شروحات برمجية، دورات تقنيات الويب وبناء المشاريع</div>
+            </div>
+            <div class="account-arrow">↗</div>
+          </a>
+
+          <!-- TikTok (Replaced Twitter/X) -->
+          <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="account-card tiktok-card" id="linkTiktok">
+            <div class="account-card-icon">
+              <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <div class="account-card-body">
+              <div class="account-platform">TikTok</div>
+              <div class="account-handle">محتوى تقني وبرمجة</div>
+              <div class="account-desc">نصائح برمجية سريعة، كواليس وتطوير برمجيات</div>
+            </div>
+            <div class="account-arrow">↗</div>
+          </a>
+
+          <!-- WhatsApp -->
+          <a href="https://wa.me/967781933369" target="_blank" rel="noopener noreferrer" class="account-card whatsapp-card" id="linkWhatsapp">
+            <div class="account-card-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="account-card-body">
+              <div class="account-platform">WhatsApp & اتصال</div>
+              <div class="account-handle">+967 781 933 369</div>
+              <div class="account-desc">محادثة واتساب مباشرة للتواصل السريع والتعاقدات</div>
+            </div>
+            <div class="account-arrow">↗</div>
+          </a>
+
+          <!-- Telegram -->
+          <a href="https://t.me/+967781933369" target="_blank" rel="noopener noreferrer" class="account-card telegram-card" id="linkTelegram">
+            <div class="account-card-icon">
+              <i class="fa-brands fa-telegram"></i>
+            </div>
+            <div class="account-card-body">
+              <div class="account-platform">Telegram</div>
+              <div class="account-handle">+967 781 933 369</div>
+              <div class="account-desc">قناة ومراسلات التليجرام التقنية المباشرة</div>
+            </div>
+            <div class="account-arrow">↗</div>
+          </a>
+
+          <!-- Email -->
+          <a href="mailto:Kamalalbosi@gmail.com" class="account-card email-card" id="linkEmail">
+            <div class="account-card-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="account-card-body">
+              <div class="account-platform">البريد الإلكتروني الرسمي</div>
+              <div class="account-handle">Kamalalbosi@gmail.com</div>
+              <div class="account-desc">للأعمال الرسمية، المشاريع، العقود والاستشارات التقنية</div>
+            </div>
+            <div class="account-arrow">↗</div>
+          </a>
+
+        </div>
+
+        <!-- Notice Box for User Accounts Updating -->
+        <div class="accounts-custom-notice">
+          <div class="notice-icon">✨</div>
+          <div class="notice-text">
+            <strong>قنوات التواصل الرسمية لم. كمال:</strong> تم ربط الحسابات وتحديث وسائل الاتصال الرسمية. يمكنك النقر على أي منصة أعلاه للتواصل المباشر!
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ========================================================== -->
+      <!-- CONTACT SECTION -->
+      <!-- ========================================================== -->
+      <section class="contact-section" id="contact">
+        <div class="contact-card-box">
+          <div class="contact-header">
+            <span class="contact-icon-badge"><i class="fa-solid fa-envelope-open-text"></i></span>
+            <h3 class="contact-title">هل لديك فكرة مشروع أو استفسار برمجي؟</h3>
+            <p class="contact-subtitle">يسعدني دائماً تقديم الدعم البرمجي والتعاون في تطوير منصات وتطبيقات ويب مميزة</p>
+          </div>
+
+          <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="userName">اسمك الكريم</label>
+                <input type="text" id="userName" name="name" placeholder="مثال: أحمد محمد" required />
+              </div>
+              <div class="form-group">
+                <label for="userEmail">بريدك الإلكتروني أو رقم الواتساب</label>
+                <input type="text" id="userEmail" name="email" placeholder="example@gmail.com / 77xxxxxxx" required />
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="userSubject">موضوع الرسالة</label>
+              <input type="text" id="userSubject" name="subject" placeholder="مثال: طلب تطوير موقع ويب / استشارة برمجية" required />
+            </div>
+
+            <div class="form-group">
+              <label for="userMessage">تفاصيل الرسالة</label>
+              <textarea id="userMessage" name="message" rows="4" placeholder="اكتب تفاصيل مشروعك أو رسالتك هنا..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn" id="sendBtn">
+              <span>إرسال الرسالة الآن</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+            <div class="form-success-msg" id="formSuccessMsg">
+              ✔ تم استلام رسالتك بنجاح! سيتم التواصل معك في أقرب وقت.
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- ========================================================== -->
+      <!-- FOOTER -->
+      <!-- ========================================================== -->
+      <footer class="notebook-footer">
+        <div class="footer-content">
+          <div class="footer-author">
+            جميع الحقوق محفوظة © 2026 — <strong>م. كمال حمادي البوسي</strong>
+          </div>
+          <div class="footer-note">
+            مصمم ومطور بكل شغف بأحدث معايير الويب العالمية 💻✨
+          </div>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <!-- Interactive Script -->
+  <script src="script.js"></script>
+</body>
+</html>
